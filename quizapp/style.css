@@ -48,11 +48,15 @@ body{
     color: rgb(5, 8, 167);
 }
 
-.option:hover{
+.option:hover:not([disabled]){
     background-color: rgb(31, 5, 175);
     color: white;
     border: 1px solid white;
+    cursor: pointer;
 
+}
+.option:disabled{
+    cursor: no-drop;
 }
 
 .next{
@@ -71,4 +75,14 @@ body{
 .next:hover{
     background-color: rgb(6, 2, 48);
     border: 1px solid rgb(1, 8, 70);
+}
+
+.correct{
+  background-color: rgb(112, 247, 112);
+  color:white
+}
+
+.incorrect{
+    background-color: rgb(255, 168, 168);
+    color: white;
 }
