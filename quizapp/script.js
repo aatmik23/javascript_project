@@ -140,6 +140,7 @@ function handlenexxtbtn(){
 }
 
 function showresult(){
+  question.innerHTML = "Your Score"
   answebtn.innerHTML = ""
   answebtn.innerHTML = `you score ${score} out of ${questions.length}`
   nextbtn.innerHTML = "Play agan"
