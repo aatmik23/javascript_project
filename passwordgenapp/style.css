@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(3, 100, 43);
+}
+.container{
+  background-color: #fff;
+  margin: 100px auto 30px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 20px;
+  padding: 20px 20px ;
+
+}
+
+.container > :first-child{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.container > :nth-child(2){
+   color: rgb(3, 100, 43);
+   font-size: 30px;
+   font-weight: 700;
+   margin-bottom: 20px;
+   padding-bottom: 10px;
+   
+   border-bottom: 1px solid rgb(3, 100, 43);
+}
+
+.passwordbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20PX 20PX;
+    background: #91e991;
+    border-radius: 20px;
+    position: relative;
+}
+
+.passwordbox img{
+    width: 24px;
+    margin-right: 20px;
+    position: absolute;
+    right: 10px;
+    object-fit:contain;
+   cursor: pointer;
+
+    
+}
+.passwordbox input{
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 50;
+    color: white;
+    
+    background: transparent;
+}
+
+.passwordbox input::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+button{
+   outline: 0;
+   border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px ;
+    gap: 10px;
+    color: white;
+    background-color: rgb(3, 100, 43);
+    border-radius: 20px;
+    margin: 30px auto ;
+}
+
+button img{
+    width: 15px;
+    padding-top: 5px;
+}
+
+button:hover{
+    background-color: rgb(37, 39, 38);
+    cursor: pointer;
+}
+
